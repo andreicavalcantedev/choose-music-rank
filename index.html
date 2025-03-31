@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <link href="style.css" rel="stylesheet" />
+
+    <title>song sorter</title>
+  </head>
+  <body>
+    <h1>song sorter</h1>
+
+    <p class="welcome-text">song sorter initial test yeah</p>
+    <div id="loading">
+      <h2>Loading...</h2>
+    </div>
+    <div id="content" style="display: none">
+      <div id="progress-bar">
+        <div id="progress">0%</div>
+      </div>
+      <div id="choices">
+        <h3>Choose your favorite song:</h3>
+        <div class="choices-button-container">
+          <button id="choice1"></button>
+          <button id="choice2"></button>
+        </div>
+      </div>
+      <div id="completed" style="display: none">
+        <h2>final ranking:</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Song Title</th>
+            </tr>
+          </thead>
+          <tbody id="ranking"></tbody>
+        </table>
+        <ol id="ranking" class="ranking"></ol>
+      </div>
+      <footer>
+        <p style="display: flex; align-items: center">
+          made by
+          <a
+            href="https://github.com/andreicavalcantedev"
+            style="margin-left: 5px"
+          >
+            andreicavalcante
+          </a>
+          <img
+            src="https://avatars.githubusercontent.com/u/98964501?v=4"
+            style="border-radius: 100%; margin-left: 5px; width: 20px"
+          />
+        </p>
+      </footer>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

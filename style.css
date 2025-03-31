@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.welcome-text {
+  font-weight: bold;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+}
+
+#progress-bar {
+  width: 40%;
+  height: 25px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+}
+#progress {
+  height: 100%;
+  background-color: #a7333b;
+  border-radius: 5px;
+  width: 0%;
+  text-align: center;
+  line-height: 25px;
+  color: white;
+}
+button {
+  width: 300px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #a7333b;
+  color: white;
+  transform: scale(1.05);
+}
+.ranking {
+  list-style-type: decimal;
+  padding-left: 0;
+}
+.loading {
+  font-size: 50px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  margin-top: 20px;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #a7333b;
+  font-weight: bold;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+@media (max-width: 660px) {
+  button {
+    width: 200px;
+    height: 70px;
+  }
+  #progress-bar {
+    width: 60%;
+  }
+  table {
+    width: 50%;
+  }
+  .choices-button-container {
+    display: flex;
+    justify-content: center;
+  }
+}
