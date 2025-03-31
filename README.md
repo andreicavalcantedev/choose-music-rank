@@ -22,7 +22,6 @@ Esse projeto é um Song Sorter interativo que permite aos usuários classificar 
    git clone https://github.com/andreicavalcantedev/choose-music-rank.git
    ```
 2. Abra o arquivo `index.html` em seu navegador.
-3. Em breve: integração com o Spotify para seleção dinâmica de álbuns!
 
 ## Contribuição
 
